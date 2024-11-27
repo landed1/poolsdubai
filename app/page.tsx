@@ -102,7 +102,7 @@ const HomePage = () => {
             </p>
           </div>
           <div className="h-[400px]">
-            <Image
+            <img
               src="/img/pools-dubai.jpg"
               width={400}
               height={500}
@@ -197,7 +197,7 @@ const HomePage = () => {
             ))}
           </div>
           <div className="h-[400px]">
-            <Image
+            <img
               src="/img/latest/pool-cleaning-service-dubai.jpg"
               width={180}
               height={180}

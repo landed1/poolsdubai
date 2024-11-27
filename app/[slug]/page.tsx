@@ -20,14 +20,12 @@ export async function generateMetadata({ params }: PageProps) {
 }
 
 export const generateStaticParams = async ()=>{
-    //we need to return all the pages as defined by ourselves here. In this case we get them from the .md files.
+    //we need to return all the pages from the .md files in a specific folder.
     const slugs = await getSlugs();
-    //console.log('slugs', slugs);
+    //slugs ['about2.md','extra.md','random'] - an array of markdown files
     const other = slugs.map(page => ({
       slug: page.replace('.md','')
     }));
-    //console.log(await other)
-    //return [{ id: "test" }];
     return await other;
 }
 
