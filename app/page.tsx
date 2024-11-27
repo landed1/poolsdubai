@@ -6,10 +6,10 @@ import {
   ChevronRight
 } from 'lucide-react'
 const images=[
-    {src:"/img/latest/burj-pools.jpg",alt:"Burj Pools"},
-    {src:"/img/latest/mozaic-tiling.jpg",alt:"Tiling Project"},
-    {src:"/img/latest/pool-cleaning-service-dubai.jpg",alt:"Pool Cleaning Dubai"},
-    {src:"/img/latest/show-pool.jpg",alt:"Show Pool"}
+    {src:"img/latest/burj-pools.jpg",alt:"Burj Pools"},
+    {src:"img/latest/mozaic-tiling.jpg",alt:"Tiling Project"},
+    {src:"img/latest/pool-cleaning-service-dubai.jpg",alt:"Pool Cleaning Dubai"},
+    {src:"img/latest/show-pool.jpg",alt:"Show Pool"}
 ]
 const HomePage = () => {
 
@@ -19,7 +19,7 @@ const HomePage = () => {
     <div
         className="bg-cover bg-center"
         style={{
-        backgroundImage: `url('/img/pools-dubai.jpg')`,
+        backgroundImage: `url('img/pools-dubai.jpg')`,
     }}>
       <section className="container mx-auto px-4 py-16 md:py-24">
         <div className="grid grid-cols-1 items-center justify-items-center text-center">
@@ -72,7 +72,7 @@ const HomePage = () => {
       {/* Inspiration Section */}
       <section className="relative h-[500px]">
         <Image
-         src="/img/palm-infinity-pool.jpg"
+         src="img/palm-infinity-pool.jpg"
          width={300}
          height={300}
           alt="Luxury Pool Inspiration"
@@ -102,8 +102,8 @@ const HomePage = () => {
             </p>
           </div>
           <div className="h-[400px]">
-            <img
-              src="/img/pools-dubai.jpg"
+            <Image
+              src="img/pools-dubai.jpg"
               width={400}
               height={500}
               alt="Pool Service"
@@ -128,7 +128,7 @@ const HomePage = () => {
               <div key={index} className="bg-white rounded-lg p-8 text-center">
                 <div className="h-32 mb-6 flex items-center justify-center">
                   <Image
-                    src="/img/pools-dubai.jpg"
+                    src="img/pools-dubai.jpg"
                     width={400}
                     height={500}
                     alt={reason}
@@ -197,8 +197,8 @@ const HomePage = () => {
             ))}
           </div>
           <div className="h-[400px]">
-            <img
-              src="/img/latest/pool-cleaning-service-dubai.jpg"
+            <Image
+              src="img/latest/pool-cleaning-service-dubai.jpg"
               width={180}
               height={180}
               alt="Process"
@@ -214,7 +214,7 @@ const HomePage = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="h-[400px]">
               <Image
-                src="/img/Alexandria-Dune.png"
+                src="img/Alexandria-Dune.png"
                 width={180}
                 height={180}
                 alt="Happy Customers"
@@ -229,7 +229,7 @@ const HomePage = () => {
                 <div key={index} className="mb-8 bg-[#ECECEC] p-6 rounded-lg">
                   <div className="flex items-center mb-4">
                     <Image
-                      src="/img/Alexandria-Dune.png"
+                      src="img/Alexandria-Dune.png"
                       width={250}
                       height={250}
                       alt="Customer"
