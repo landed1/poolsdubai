@@ -1,10 +1,11 @@
-import React from 'react'
-import Image from 'next/image'
+import React from 'react';
+import Image from 'next/image';
+import ContactFormHome from './components/ContactFormHome';
 import { 
   CheckCircle, 
   Star, 
   ChevronRight
-} from 'lucide-react'
+} from 'lucide-react';
 const images=[
     {src:"img/latest/burj-pools.jpg",alt:"Burj Pools"},
     {src:"img/latest/mozaic-tiling.jpg",alt:"Tiling Project"},
@@ -299,15 +300,10 @@ const HomePage = () => {
       {/* Contact Form Section */}
       <section className="bg-[#2C2C54] py-16">
         <div className="container mx-auto px-4">
-          <div className="max-w-2xl mx-auto bg-white rounded-lg p-8">
-            <h2 className="text-3xl font-bold text-[#2C2C54] text-center mb-8">
-              Get in Touch
-            </h2>
-            <p className="text-center text-[#474787] mb-8">
-              Contact form placeholder - Integration required
-            </p>
+
+          <ContactFormHome />
             {/* Form placeholder - replace with actual form component */}
-            <div className="space-y-4">
+            {/*<div className="space-y-4">
               <input
                 type="text"
                 placeholder="Name"
@@ -329,8 +325,8 @@ const HomePage = () => {
               <button className="w-full bg-[#474787] text-white py-3 rounded-lg hover:bg-[#2C2C54] transition-colors" disabled>
                 Send Message
               </button>
-            </div>
-          </div>
+            </div>*/}
+
         </div>
       </section>
 
