@@ -1,39 +1,36 @@
 import React from 'react';
 import {getPostMeta, getPageContent, getSlugs} from '../lib/getPage';
 import NextBreadcrumb from '../components/NextBreadcrumb';
+import { Metadata } from 'next';
 
-type Params = {
-    title: string;
+  type Params = {
     slug: string;
-    description: string;
-    also:string;
-  };
-  
-  type PageProps = {
-    params: Params;
   };
 
-export async function generateMetadata({ params }: PageProps) {
-    const lePost = await getPostMeta(params.slug)
+
+export async function generateMetadata({ params }: { params:Params } ): Promise<Metadata> {
+    const {slug} = await params;
+    const lePost = await getPostMeta(slug);
     const [firstPost] = lePost;
     return firstPost;
+   /* return {
+      title: lePost[0]?.title || 'Page', 
+      description: lePost[0]?.description || ''
+  };*/
 }
-
-export const generateStaticParams = async ()=>{
+export const generateStaticParams = async () => {
     //we need to return all the pages from the .md files in a specific folder.
     const slugs = await getSlugs();
     //slugs ['about2.md','extra.md','random'] - an array of markdown files
-    const other = slugs.map(page => ({
+    return slugs.map(page => ({
       slug: page.replace('.md','')
     }));
-    return await other;
 }
 
-export default async function Page({params}:PageProps){
+export default async function Page({ params }: { params:Params }) {
     const pageC = await getPageContent(params.slug)
     //console.log("page Content", pageC.contentHtml);
     const newPage= pageC.contentHtml;
-    //console.log(newPage);
     return <article className="flex-grow page-gutter">
             <NextBreadcrumb
               homeElement={'Home'}
