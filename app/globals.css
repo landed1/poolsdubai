@@ -40,4 +40,5 @@ p {
 
 .page-gutter {
   @apply px-4 md:px-8 lg:px-12 py-4; /* Adjust padding as needed for different breakpoints */
+  overscroll-behavior: contain;
 }

@@ -32,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${notio.className}`}>
       <body className="min-h-screen flex flex-col">
-        <header className="sticky top-0">
+        <header className="sticky top-0 z-50">
           <NavBar />
         </header>
         {children}

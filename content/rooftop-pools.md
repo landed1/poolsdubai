@@ -27,7 +27,9 @@ Aura Skypool sits on the 50th floor of The Palm Tower. It's the highest infinity
 
 Cloud 22 is at Atlantis The Royal and only for the guests staying there. It has a long infinity pool with sunbeds in the water. You can rent cabanas that have two floors. The views are of the Arabian Gulf and Palm Jumeirah.
 
-![Cloud 22 Sky Pool](https://lh3.googleusercontent.com/p/AF1QipNwr4sWwB849qD_RCSgmIGednq3-Ac-gHfPbNx7=s680-w680-h510)
+![Cloud 22 Sky Pool](img/cloud-sky-pool-dubai.png)
+
+[![](https://markdown-videos-api.jorgenkh.no/youtube/2nozp02vi5M)](https://youtu.be/2nozp02vi5M)
 
 ### Address Sky View
 
