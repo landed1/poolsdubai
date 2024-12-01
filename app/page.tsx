@@ -12,7 +12,7 @@ const images = [
   { src: "img/latest/show-pool.jpg", alt: "Show Pool" },
 ];
 const HomePage = () => {
-  const problemText: [] = [
+  const problemText: Array<string> = [
     "Our team is everything to us, experience passion and caring",
     "It takes the best tooling to achieve the results in difficult places",
     "We are here for your support when you need us",
