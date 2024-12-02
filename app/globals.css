@@ -42,3 +42,57 @@ p {
   @apply px-4 md:px-8 lg:px-12 py-4; /* Adjust padding as needed for different breakpoints */
   overscroll-behavior: contain;
 }
+
+/* Global table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  font-size: 1rem;
+  background-color: #ffffff; /* Hint of white background */
+  color: #000; /* Default text color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border: 1px solid #e0e0e0; /* Subtle border for better separation */
+}
+
+th {
+  background-color: #4fc3f7; /* Electric blue */
+  color: #ffffff; /* White text */
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f7f7f7; /* Light gray for zebra striping */
+}
+
+tr:hover {
+  background-color: #ff80ab; /* Magenta highlight on hover */
+  color: #ffffff; /* White text on hover */
+}
+
+caption {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #4fc3f7; /* Electric blue */
+  font-weight: bold;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  table {
+    font-size: 0.875rem;
+  }
+
+  th,
+  td {
+    padding: 0.5rem;
+  }
+}

@@ -3,6 +3,7 @@ import path from 'path';
 import matter from 'gray-matter';
 import { remark } from 'remark';
 import html from 'remark-html';
+import gfm from 'remark-gfm'; // Import the plugin for tables
 
 //global files used in both methods
 const files = fs.readdirSync(path.join(process.cwd(), '/content'));
@@ -21,7 +22,8 @@ export async function getPageContent(slug:string){
     //parse the whole page
     // Use remark to convert markdown into HTML string
     const processedContent = await remark()
-        .use(html)
+        .use(gfm)    
+        .use(html)       
         .process(matterResult.content);
     const contentHtml = processedContent.value;
   return {
