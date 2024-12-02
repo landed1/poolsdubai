@@ -1,7 +1,8 @@
 import React from "react";
-import { getPostMeta, getPageContent, getSlugs } from "../lib/getPage";
+import { getPostMeta, getPageContent, getFiles } from "../lib/getPage";
 import NextBreadcrumb from "../components/NextBreadcrumb";
 import { Metadata } from "next";
+import { notFound } from "next/navigation";
 
 type Params = {
   slug: string;
@@ -15,23 +16,25 @@ export async function generateMetadata({
   const { slug } = await params;
   const lePost = await getPostMeta(slug);
   const [firstPost] = lePost;
+  //console.log("what does slug look like for", lePost);
   return firstPost;
-  /* return {
-      title: lePost[0]?.title || 'Page', 
-      description: lePost[0]?.description || ''
-  };*/
 }
 export const generateStaticParams = async () => {
+  //console.log("static params");
   //we need to return all the pages from the .md files in a specific folder.
-  const slugs = await getSlugs();
-  //slugs ['about2.md','extra.md','random'] - an array of markdown files
+  const slugs = await getFiles();
   return slugs.map((page) => ({
     slug: page.replace(".md", ""),
   }));
+  //slugs ['about2.md','extra.md','random'] - an array of markdown files
 };
 
 export default async function Page({ params }: { params: Params }) {
   const pageC = await getPageContent(params.slug);
+  if (!getPageContent(params.slug)) {
+    notFound();
+    return;
+  }
   //console.log("page Content", pageC.contentHtml);
   const newPage = pageC.contentHtml;
   return (

@@ -8,6 +8,11 @@ import gfm from 'remark-gfm'; // Import the plugin for tables
 //global files used in both methods
 const files = fs.readdirSync(path.join(process.cwd(), '/content'));
 
+export async function getFiles(){
+    const fileWithEx = await files;
+    return fileWithEx;
+}
+
 export async function getSlugs(){
     const fileNoEx = files.map(file => file.replace('.md', ''));
     return fileNoEx;

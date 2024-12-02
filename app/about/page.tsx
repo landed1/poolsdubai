@@ -1,5 +1,11 @@
 import NextBreadcrumb from "../components/NextBreadcrumb";
 
+export const metadata = {
+  title: "About PoolsDubai",
+  description:
+    "We are a Dubai Swimming Pool Contractor, learn more about us on this page",
+};
+
 export default function About() {
   return (
     <div className='my-20'>

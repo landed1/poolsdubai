@@ -15,7 +15,7 @@ export default async function Blog() {
     titre: pageList[index],
   }));
 
-  console.log("page ", postData);
+  // console.log("page ", postData);
 
   return (
     <div className='my-20'>
