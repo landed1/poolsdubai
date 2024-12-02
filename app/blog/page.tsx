@@ -2,6 +2,12 @@ import NextBreadcrumb from "../components/NextBreadcrumb";
 import { getSlugs, getTitles } from "../lib/getPage";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Dubai Pool Company Blog",
+  description:
+    "We blog about anything to do with swimming pools in Dubai! Serously..",
+};
+
 export default async function Blog() {
   //we need to export a bunch of cards from all the posts we have let's see what the ai coders come up with...
 
