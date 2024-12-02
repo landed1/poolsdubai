@@ -12,7 +12,9 @@ export default function About() {
         capitalizeLinks
       />
       <article className='flex-grow page-gutter'>
-        <h1>About Pools Dubai</h1>
+        <h1 className='text-4xl font-bold text-center text-[#0fa0ba] mb-8'>
+          About Pools Dubai
+        </h1>
         <section className='py-12 px-6'>
           <div className='max-w-4xl mx-auto'>
             <p className='text-lg text-gray-700 mb-6'>

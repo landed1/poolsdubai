@@ -3,6 +3,7 @@ import React from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import NextBreadcrumb from "../components/NextBreadcrumb";
+import ServiceList from "../components/ServiceLinks";
 
 export default function Users() {
   const pathname = usePathname();
@@ -21,9 +22,22 @@ export default function Users() {
       />
       <article className='flex-grow page-gutter'>
         <div>
-          <h1>
-            <Link href='/services'>Dubai Pool Services</Link>
-          </h1>
+          <section className='p-6 bg-[#0fa0ba] text-white rounded-tl-md rounded-br-md shadow-lg mb-8'>
+            <h1 className='text-3xl font-bold mb-4'>
+              <Link href='/services'>Dubai Pool Services</Link>
+            </h1>
+            <p className='mb-4'>
+              At <strong>Pools Dubai</strong>, we specialize in providing
+              exceptional pool services across Dubai. Whether you need
+              professional pool maintenance, stunning designs, expert repairs,
+              or complete renovations, our team is here to deliver top-tier
+              solutions tailored to your needs. With years of experience, we
+              ensure your pool stays pristine, functional, and a true
+              centerpiece of your property.
+            </p>
+          </section>
+          <ServiceList />
+
           <ul className='space-y-2 text-[#AAABB8]'>
             <li>
               <Link href='/services/pool-maintenance'>Pool Maintenance</Link>

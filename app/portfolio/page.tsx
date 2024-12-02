@@ -1,3 +1,4 @@
+import Image from "next/image";
 import NextBreadcrumb from "../components/NextBreadcrumb";
 
 export default function Portfolio() {
@@ -62,7 +63,9 @@ export default function Portfolio() {
                 <div
                   key={index}
                   className='bg-white rounded-tl-xl rounded-br-xl shadow-md overflow-hidden'>
-                  <img
+                  <Image
+                    width={400}
+                    height={200}
                     src={item.img}
                     alt={item.title}
                     className='w-full h-56 object-cover'
