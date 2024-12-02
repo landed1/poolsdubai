@@ -1,5 +1,5 @@
 import NextBreadcrumb from "../components/NextBreadcrumb";
-import { getSlugs } from "../lib/getPage";
+import { getSlugs, getTitles } from "../lib/getPage";
 import Link from "next/link";
 
 export default async function Blog() {
@@ -7,9 +7,15 @@ export default async function Blog() {
 
   //spec cards and tags which group the cards.
 
-  const pageList = await getSlugs();
+  const pageSlugs = await getSlugs();
+  const pageList = await getTitles();
 
-  //console.log('page ',pageList);
+  const postData = pageSlugs.map((slug, index) => ({
+    slug,
+    titre: pageList[index],
+  }));
+
+  console.log("page ", postData);
 
   return (
     <div className='my-20'>
@@ -29,18 +35,17 @@ export default async function Blog() {
           <span className='italic'>not just Dubai!</span>
         </p>
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6'>
-          {pageList.map((titre, index) => (
+          {postData.map((item) => (
             <div
-              key={index}
+              key={String(item.slug)}
               className='bg-[#F9F9F9] shadow-lg rounded-lg p-6 hover:shadow-xl transition-shadow duration-300'>
               <h3 className='text-lg font-semibold text-[#474787] mb-4'>
-                {titre.replace(".md", "")}
+                {item.titre}
               </h3>
-              <p className='text-sm text-[#00909E] mb-4'>{titre}</p>
+              <p className='text-sm text-[#00909E] mb-4'></p>
               <Link
-                href={`/${titre.replace(".md", "")}`}
+                href={`/${item.slug}`}
                 className='px-4 py-2 text-white bg-[#FF477E] rounded hover:bg-[#FF6584] transition-colors duration-300'>
-                {" "}
                 Read It!
               </Link>
             </div>

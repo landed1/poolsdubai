@@ -9,7 +9,13 @@ import gfm from 'remark-gfm'; // Import the plugin for tables
 const files = fs.readdirSync(path.join(process.cwd(), '/content'));
 
 export async function getSlugs(){
-    return files;
+    const fileNoEx = files.map(file => file.replace('.md', ''));
+    return fileNoEx;
+}
+export async function getTitles(){
+    //read through all
+    const allData = await getPostMeta()
+    return allData.map(post => post.title);
 }
 
 export async function getPageContent(slug:string){
