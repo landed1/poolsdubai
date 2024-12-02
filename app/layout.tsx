@@ -31,7 +31,7 @@ export const metadata = {
   title: "Dubai Pool Company Website",
   description:
     "We are your friendly Dubai Pool Company. Offering services from design and construction to maintenance and safety.",
-  metadataBase: new URL("https://dubaipools.com"),
+  metadataBase: new URL("https://poolsdubai.com"),
   alternates: {
     canonical: "./",
   },
