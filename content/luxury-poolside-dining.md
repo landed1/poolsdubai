@@ -28,6 +28,8 @@ alt_text: "Luxury dining ambiance at Dubai’s poolside"
 | **Entertainment**   | Live music, DJ sets                             |
 | **Menu Highlights** | Sushi platters, grilled seafood, vibrant salads |
 
+![Poolside Dining in Dubai](img/blog/Luxury_Poolside_Dining_Options_in_Dubai.png)
+
 ## Introduction
 
 Dubai is renowned for its luxurious lifestyle and exquisite dining experiences. In 2024, the **luxury poolside dining scene** continues to thrive, offering international flavors and remarkable amenities.

@@ -28,6 +28,8 @@ twitter:
 | Family-Friendly Services     | Dedicated children’s zones and vibrant atmospheres.                  |
 | Luxurious Design & Amenities | Thematic designs and high-end lounging with gourmet poolside menus.  |
 
+![Top 5 Luxury Pools in Dubai](img/blog/Best_Luxury_Swimming_Pools_in_Dubai.png)
+
 ---
 
 ## **Introduction**
@@ -35,6 +37,23 @@ twitter:
 Dubai epitomises luxury in every aspect, and its hotel pools are no exception. These pools are destinations in themselves, offering experiences that combine comfort, design, and exclusivity. Let us explore five standout features that make these pools a must for any traveller seeking indulgence.
 
 ---
+
+## Top 5
+
+| Pool                           | Reason                                                                                                                                                                                     |
+| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| AURA Skypool                   | World's highest 360° infinity pool, located 200 meters above the city on the 50th floor of Palm Tower. Offers stunning panoramic views and an exclusive experience for only 160 guests[4]. |
+| Cloud 22 at Atlantis The Royal | Features a glistening infinity pool with lavish air-conditioned cabanas, plunge pools, and overwater day beds. Offers a swim-up bar and gourmet poolside dining[5].                        |
+| Burj Al Arab Terrace           | Boasts two stunning pools: a family-friendly freshwater pool with a shaded swim-up bar and an adult-only saltwater infinity pool with breathtaking sea views[4].                           |
+| Address Beach Resort           | Home to the world's highest infinity pool at almost 294 meters high, recognized by Guinness World Records. Provides unbeatable views of the Arabian Gulf and Ain Dubai[3].                 |
+| Privilege at SLS Dubai         | Features the world's highest overflow pool on the 75th floor, offering fantastic views of Downtown Dubai's skyline, especially at sunset[3][5].                                            |
+
+Citations:
+[1] https://www.affordableluxurytravel.co.uk/blog/best-infinity-pools-in-dubai/
+[2] https://www.timeoutdubai.com/things-to-do/the-best-pool-day-deals-in-dubai
+[3] https://www.visitdubai.com/en/articles/cool-hotel-pools-in-dubai
+[4] https://www.factmagazines.com/uae/dubai/things-to-do-dubai/editors-picks-the-most-instagrammable-swimming-pools-in-dubai
+[5] https://dubainight.com/news/2024-10-30/dive-into-luxury-dubais-best-rooftop-pools
 
 ## **1. Panoramic Infinity Pools**
 
@@ -44,14 +63,11 @@ Adjoining skyscraper rooftops or lavish resorts, these pools seamlessly merge wi
 
 ### **Visual Highlight**
 
-![Luxury Features Radar Chart](https://iili.io/21WKJLB.png)  
-_This radar chart highlights the importance of panoramic views among the luxury attributes of Dubai’s pools._
-
-For customised panoramic pool designs, check out [our pool design services](#).
+![Luxury Features Radar Chart](https://iili.io/21WKJLB.png)
 
 ---
 
-## **2. Exclusive Private Oases**
+## Exclusive Private Oases
 
 Privacy is a luxury, and Dubai's pools are designed to cater to it fully. Many of the city’s premium hotels offer secluded pool sections featuring private cabanas, personalised butler assistance, and lush environments.
 
@@ -59,7 +75,7 @@ Whether for personal rejuvenation or intimate gatherings, these oases promise a 
 
 ---
 
-## **3. Record-Breaking Heights**
+## Record-Breaking Heights
 
 Dubai is renowned for taking luxury to incredible heights—literally. Pools situated atop record-breaking skyscrapers offer swimmers sweeping views of the Arabian Gulf and cityscape below.
 
@@ -69,7 +85,7 @@ For projects involving architectural brilliance at height, check our [design ins
 
 ---
 
-## **4. Family-Friendly Retreats**
+## Family-Friendly Retreats
 
 Family vacations don’t have to miss out on the fun and opulence. Dubai’s family-friendly pools ensure that everyone, including children, has a vibrant and memorable experience.
 
@@ -77,7 +93,7 @@ These pools feature smaller kids’ zones, play areas, and energetic atmospheres
 
 ---
 
-## **5. Art-Focused Design and Rich Amenities**
+## Art-Focused Design and Rich Amenities
 
 Dubai's luxury hotel pools are as much about beauty as they are function. Many feature thematic designs—ranging from Arabian inspirations to nautical themes—with an artistic flair that seamlessly integrates with the surrounding architecture.
 
@@ -85,8 +101,7 @@ Beyond their charm, these pools offer luxurious loungers, gourmet poolside snack
 
 ### **Visual Highlight**
 
-![Luxury Feature Contribution Pie Chart](https://iili.io/21WKJLB.png)  
-_This pie chart breaks down the elements contributing to the overall luxury of Dubai's hotel pools._
+![Luxury Feature Contribution Pie Chart](https://iili.io/21WKJLB.png)
 
 ---
 

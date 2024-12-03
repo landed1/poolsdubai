@@ -23,6 +23,8 @@ As we venture into 2024, the landscape of VIP services and poolside experiences 
 This year, the industry is characterized by a blend of technological innovation, heightened personalisation, and sustainability.  
 Our approach at Pools Dubai is to stay ahead of these trends by integrating advanced technology and eco-friendly practices into our services, ensuring a memorable experience for our guests.
 
+![VIP Pools in Dubai](img/blog/VIP_Services_and_Poolside_Experiences.png)
+
 ---
 
 ### AI-Driven Personalization
