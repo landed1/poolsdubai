@@ -33,7 +33,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts"
-  ],
+, "app/lib/youTubePlugin.js"  ],
   "exclude": [
     "node_modules"
   ]

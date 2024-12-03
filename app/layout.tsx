@@ -137,6 +137,10 @@ export default function RootLayout({
                 &copy; {new Date().getFullYear()} Dubai Pool Services. All
                 rights reserved.
               </p>
+              <p>
+                Web Design and <a href='https://cambs.eu'>SEO</a> by Cambs
+                Digital
+              </p>
             </div>
           </div>
         </footer>

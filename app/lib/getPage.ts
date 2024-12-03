@@ -2,7 +2,8 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import { remark } from 'remark';
-import html from 'remark-html';
+import remarkHtml from 'remark-html';
+import remarkYouTubeEmbed from './youTubePlugin';
 import gfm from 'remark-gfm'; // Import the plugin for tables
 
 //global files used in both methods
@@ -33,9 +34,11 @@ export async function getPageContent(slug:string){
     //parse the whole page
     // Use remark to convert markdown into HTML string
     const processedContent = await remark()
-        .use(gfm)    
-        .use(html)       
-        .process(matterResult.content);
+    .use(gfm)
+    .use(remarkYouTubeEmbed)     
+    .use(remarkHtml)
+    .process(matterResult.content);
+        //console.log(processedContent.value);
     const contentHtml = processedContent.value;
   return {
     contentHtml

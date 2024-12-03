@@ -12,3 +12,4 @@ I use a python script backend to produce the blog posts and imagery. MD is limit
 
 I would like to use MDX instead of just MarkDown for the content. For now Dec 2024 I need to see how Google likes the total SEO approach and if it gags on the AI blog posts which are not the best.
 A proper contact form solution to be implemented.
+Logo and Favicon for better branding.
