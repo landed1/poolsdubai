@@ -55,11 +55,26 @@ Citations:
 [4] https://www.factmagazines.com/uae/dubai/things-to-do-dubai/editors-picks-the-most-instagrammable-swimming-pools-in-dubai
 [5] https://dubainight.com/news/2024-10-30/dive-into-luxury-dubais-best-rooftop-pools
 
-xyz
+### Burj Al Arab Pool
 
-{{< youtube dQw4w9WgXcQ >}}
+{{< youtube r5EEa1IGn88 >}}
 
-abc
+## AURA Skypool
+
+{{< youtube s1CgfooqEQ4 >}}
+
+## Cloud 22 at Atlantis
+
+{{< youtube J5-IAhNms4Q >}}
+
+## Address Beach resort
+
+{{< youtube 6fkXsiZpBDU >}}
+{{< youtube tbkNGzcEbu8 >}}
+
+## Privilege at SLS Dubai
+
+{{< youtube WJgvZsYJLpw >}}
 
 ## **1. Panoramic Infinity Pools**
 

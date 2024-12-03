@@ -6,6 +6,12 @@ import remarkHtml from 'remark-html';
 import remarkYouTubeEmbed from './youTubePlugin';
 import gfm from 'remark-gfm'; // Import the plugin for tables
 
+import remarkParse from 'remark-parse';
+import remarkGfm from 'remark-gfm';
+import remarkRehype from 'remark-rehype';
+import rehypeRaw from 'rehype-raw';
+import rehypeStringify from 'rehype-stringify';
+
 //global files used in both methods
 const files = fs.readdirSync(path.join(process.cwd(), '/content'));
 
@@ -24,7 +30,33 @@ export async function getTitles(){
     return allData.map(post => post.title);
 }
 
-export async function getPageContent(slug:string){
+
+export async function getPageContent(slug: string) {
+    const which = files.filter(content => content === slug + '.md');
+    const fileContents = fs.readFileSync(`${process.cwd()}/content/${which}`, 'utf8');
+    const matterResult = matter(fileContents);
+    
+    const processedContent = await remark()
+      .use(remarkParse)
+      .use(remarkGfm)
+      .use(remarkYouTubeEmbed)     
+      .use(remarkRehype, { allowDangerousHtml: true }) // Convert markdown to rehype
+      .use(rehypeRaw) // Allow raw HTML to pass through
+      .use(rehypeStringify)
+      .process(matterResult.content);
+    
+    const contentHtml = processedContent.toString();
+    return {
+      contentHtml
+    };
+  }
+
+
+
+
+
+
+export async function getPageContentOld(slug:string){
     //console.log("slug page content trying to match on ",slug+'.md')
     const which = files.filter(content => content === slug+'.md' )
     //console.log('content for this page \n',which);
@@ -35,8 +67,8 @@ export async function getPageContent(slug:string){
     // Use remark to convert markdown into HTML string
     const processedContent = await remark()
     .use(gfm)
-    .use(remarkYouTubeEmbed)     
     .use(remarkHtml)
+    .use(remarkYouTubeEmbed)     
     .process(matterResult.content);
         //console.log(processedContent.value);
     const contentHtml = processedContent.value;
