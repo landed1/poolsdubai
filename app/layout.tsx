@@ -10,6 +10,7 @@ import {
 } from "lucide-react";
 import localFont from "next/font/local";
 import Link from "next/link";
+import Image from "next/image";
 
 const notio = localFont({
   src: [
@@ -58,6 +59,12 @@ export default function RootLayout({
                   Premium pool maintenance services in Dubai, ensuring your pool
                   stays pristine year-round.
                 </p>
+                <Image
+                  src={"img/latest/logo-squarex512.png"}
+                  width={150}
+                  height={150}
+                  alt={"pools Dubai Logo"}
+                />
               </div>
               <div>
                 <h3 className='text-xl font-bold mb-4'>Contact</h3>

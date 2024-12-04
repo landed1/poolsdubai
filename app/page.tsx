@@ -5,6 +5,7 @@ import { CheckCircle, Star, ChevronRight } from "lucide-react";
 const images = [
   { src: "img/latest/burj-pools.jpg", alt: "Burj Pools" },
   { src: "img/latest/mozaic-tiling.jpg", alt: "Tiling Project" },
+  { src: "img/latest/logo-squarex512.png", alt: "Pools Dubai" },
   {
     src: "img/latest/pool-cleaning-service-dubai.jpg",
     alt: "Pool Cleaning Dubai",

@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { X, Menu } from "lucide-react";
+import Image from "next/image";
 
 /*
 function debounce<T extends (...args: unknown[]) => void>(
@@ -61,7 +62,19 @@ const NavBar = () => {
           className='flex justify-between items-center transition-all duration-300'
           style={{ height: `${height}px` }}>
           {/* Logo */}
-          <div className='flex-shrink-0'>
+          <div className='flex-shrink-0 flex items-center'>
+            <div
+              className='relative w-10 h-10 mr-3 transition-all duration-300'
+              style={{
+                transform: scroll ? "scale(0.8)" : "scale(1)",
+              }}>
+              <Image
+                src='img/logo-squarex80.png'
+                alt='Pools Dubai Logo'
+                layout='fill'
+                objectFit='cover'
+              />
+            </div>
             <Link
               href='/'
               className='font-bold transition-all duration-300'
