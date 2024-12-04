@@ -62,12 +62,14 @@ The chart highlights the months that are ideal for family-friendly pool experien
 
 Dubai hosts a plethora of pools designed to provide kids with a safe yet adventurous experience. Here are some standout options:
 
-1. **Atlantis Kids Pool**  
+1. **Atlantis Kids Pool**
+   {{< youtube lG3NvuMPY3A >}}
    Famous for its slides and splash zones.
 2. **The Palm Family Pool**  
    Offers a combination of family pools and dining areas.
 
-3. **Laguna Water Park**  
+3. **Laguna Water Park**
+   {{< youtube F2y6MBx4bEI >}}
    A themed water park with age-appropriate slides and lazy rivers for relaxation.
 
 Each location has specific amenities focusing on children while ensuring parental comfort.

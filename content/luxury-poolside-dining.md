@@ -58,7 +58,7 @@ _Idyllic Beachfront Access Enhances the Dining Experience_
 
 Many establishments offer **live music and DJ sets**, creating an immersive atmosphere that ranges from serene to vibrant. Whether for a casual lunch or an upscale dinner, these settings promise unforgettable moments.
 
-For more inspiration, visit our [landscape design services page](#).
+For more inspiration, visit our [pool landscape design services page](https://poolsdubai.com/services/pool-design-construction).
 
 ---
 
