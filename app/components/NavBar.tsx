@@ -69,7 +69,7 @@ const NavBar = () => {
                 transform: scroll ? "scale(0.8)" : "scale(1)",
               }}>
               <Image
-                src='img/logo-squarex80.png'
+                src='/img/logo-squarex80.png'
                 alt='Pools Dubai Logo'
                 layout='fill'
                 objectFit='cover'
