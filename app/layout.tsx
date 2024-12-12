@@ -1,16 +1,6 @@
 import "./globals.css";
 import NavBar from "./components/NavBar";
-import {
-  Phone,
-  Mail,
-  MapPin,
-  Facebook,
-  Instagram,
-  Twitter,
-} from "lucide-react";
 import localFont from "next/font/local";
-import Link from "next/link";
-import Image from "next/image";
 import Footer from "./components/footer";
 
 const notio = localFont({
