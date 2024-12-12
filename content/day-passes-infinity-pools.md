@@ -1,14 +1,15 @@
 ---
-title: "Exploring Day Passes for Infinity Pools"  
-description: "Discover the ultimate guide to infinity pool day passes. Compare Bronze and Silver packages, explore exclusive amenities, and find the perfect option for relaxation and luxury."  
-keywords: "Infinity pools, day passes, luxury pool experiences, Bronze vs Silver packages, UAE travel, poolside amenities"
+title: Exploring Day Passes for Infinity Pools
+description: Discover the ultimate guide to infinity pool day passes. Compare Bronze and Silver packages explore exclusive amenities, and find the perfect option for relaxation and luxury
+keywords: Infinity pools, day passes, luxury pool experiences, Bronze vs Silver packages, UAE travel, poolside amenities
 date: 01-12-2024
+author: cal
 ---
 
 # Exploring Day Passes for Infinity Pools  
 
 ## 1. Introduction to Day Passes  
-Day passes offer a perfect opportunity to enjoy luxurious infinity pools without booking an overnight stay. These passes combine relaxation, exclusivity, and convenience, making them ideal for anyone seeking a serene getaway.
+Day passes offer a perfect opportunity to enjoy [luxurious infinity pools](/infinity-pools-dubai) without booking an overnight stay. These passes combine relaxation, exclusivity, and convenience, making them ideal for anyone seeking a serene getaway.
 
 ![Day Passes for Infinity Pools](img/blog/Day_Passes_for_Infinity_Pools.png)
 

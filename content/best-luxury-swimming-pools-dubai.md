@@ -2,7 +2,7 @@
 title: Best Luxury Swimming Pools in Dubai-Features and Highlights
 description: Discover the allure of luxury swimming pools in Dubai, boasting breathtaking infinity pools, private cabanas, poolside dining, and iconic views.
 date: 08-12-2024
-author: "Mighty Mo"
+author: cal
 ---
 
 ## Best Luxury Swimming Pools in Dubai
