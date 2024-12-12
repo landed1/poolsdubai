@@ -2,6 +2,7 @@
 title: "Dubai Pools: Perfect Family Packages for Your Holiday"
 description: "Discover the best Dubai pools with family packages, including luxurious amenities, kids' clubs, and exciting waterparks. Explore our detailed guide on family-friendly hotels in Dubai."
 keywords: "Dubai pools, family packages Dubai, family-friendly hotels, Dubai waterparks, Dubai resorts with pools"
+date: 02-12-2024
 image: "https://iili.io/2ESK26v.png"
 ---
 

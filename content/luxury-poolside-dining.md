@@ -1,7 +1,7 @@
 ---
 title: "Luxury Poolside Dining Options in Dubai"
 description: "Explore the luxurious poolside dining scene in Dubai, featuring international cuisines, breathtaking views, and exceptional amenities."
-date: 2024-12-01
+date: 04-11-2024
 author: Dubai Pools
 tags:
   - Dubai

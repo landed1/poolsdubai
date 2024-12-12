@@ -3,6 +3,7 @@ title: "Top 5 Luxury Hotel Pools in Dubai | Pools Dubai"
 description: "Discover the top luxury hotel pools in Dubai, featuring breathtaking views, private oases, family-friendly retreats, and artful designs."
 keywords: "luxury hotel pools, Dubai pools, infinity pools, family-friendly pools, exclusive pools, pool design, panoramic views"
 author: "Pools Dubai"
+date: 05-12-2024
 og:
   title: "Top 5 Luxury Hotel Pools in Dubai | Pools Dubai"
   description: "Explore Dubai's most luxurious hotel pools with stunning views, unparalleled amenities, and exclusive experiences."

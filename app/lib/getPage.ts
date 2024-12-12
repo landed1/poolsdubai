@@ -30,11 +30,22 @@ export async function getTitles(){
     return allData.map(post => post.title);
 }
 
+export async function getMeta(slug: string){
+  //read through all
+  const which = files.filter(content => content === slug + '.md');
+  const fileContents = fs.readFileSync(`${process.cwd()}/content/${which}`, 'utf8');
+  const matterResult = matter(fileContents);
+  //console.log("finding for ", matterResult.data.date)
+  return matterResult.data;
+}
+
 
 export async function getPageContent(slug: string) {
     const which = files.filter(content => content === slug + '.md');
     const fileContents = fs.readFileSync(`${process.cwd()}/content/${which}`, 'utf8');
     const matterResult = matter(fileContents);
+    
+    //console.log("matterResult",matterResult.data)
     
     const processedContent = await remark()
       .use(remarkParse)
@@ -50,10 +61,6 @@ export async function getPageContent(slug: string) {
       contentHtml
     };
   }
-
-
-
-
 
 
 export async function getPageContentOld(slug:string){

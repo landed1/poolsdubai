@@ -1,5 +1,5 @@
 import React from "react";
-import { getPostMeta, getPageContent, getFiles } from "../lib/getPage";
+import { getPostMeta, getPageContent, getFiles, getMeta } from "../lib/getPage";
 import NextBreadcrumb from "../components/NextBreadcrumb";
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
@@ -31,11 +31,13 @@ export const generateStaticParams = async () => {
 
 export default async function Page({ params }: { params: Params }) {
   const pageC = await getPageContent(params.slug);
+  const meta = await getMeta(params.slug);
+  //console.log("dDate\n\n", dDate);
   if (!getPageContent(params.slug)) {
     notFound();
     return;
   }
-  //console.log("page Content", pageC.contentHtml);
+  //console.log("page Content", pageC);
   const newPage = pageC.contentHtml;
   return (
     <div className='my-20'>
@@ -48,6 +50,22 @@ export default async function Page({ params }: { params: Params }) {
         capitalizeLinks
       />
       <article className='flex-grow page-gutter'>
+        <div className='flex space-x-2'>
+          {meta.author ? (
+            <div className='inline-block px-2.5 py-0.5 bg-red-800 text-gray-100 border border-gray-600 rounded text-xs shadow-sm blur-[0.5px]'>
+              Author&nbsp;{meta.author ? meta.author : ""}
+            </div>
+          ) : (
+            ""
+          )}
+          {meta.date ? (
+            <div className='inline-block px-2.5 py-0.5 bg-gray-800 text-gray-100 border border-gray-600 rounded text-xs shadow-sm blur-[0.5px]'>
+              {meta.date ? meta.date : ""}
+            </div>
+          ) : (
+            ""
+          )}
+        </div>
         <div dangerouslySetInnerHTML={{ __html: newPage }}></div>
       </article>
     </div>
