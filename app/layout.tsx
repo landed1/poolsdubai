@@ -36,6 +36,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en' className={`${notio.className}`}>
+      <script
+        async
+        defer
+        src='https://widget.getyourguide.com/dist/pa.umd.production.min.js'
+        data-gyg-partner-id='3J2Q5H3'></script>
+
       <body className='min-h-screen flex flex-col'>
         <header className='sticky top-0 z-50'>
           <NavBar />

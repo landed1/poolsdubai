@@ -75,6 +75,8 @@ Dubai hosts a plethora of pools designed to provide kids with a safe yet adventu
 
 Each location has specific amenities focusing on children while ensuring parental comfort.
 
+<div data-gyg-href="https://widget.getyourguide.com/default/city.frame" data-gyg-location-id="173" data-gyg-locale-code="en-US" data-gyg-widget="city" data-gyg-partner-id="3J2Q5H3"></div>
+
 ---
 
 ## Related Services from Pools Dubai
