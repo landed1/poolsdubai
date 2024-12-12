@@ -2,7 +2,8 @@
 title: "Explore Infinity Pools in Dubai: Top Destinations & Features"
 description: "Discover the most breathtaking infinity pool experiences in Dubai, including the world’s highest 360° pool. Learn about luxury services and stunning poolside dining."
 date: 15-11-2024
-tags: [Dubai, Infinity Pools, Luxury Pools, Travel, UAE]
+author: Mighty Mo
+tags: [Infinity Pools, Luxury Pools]
 ---
 
 # Explore Infinity Pools in Dubai: Top Destinations & Features
