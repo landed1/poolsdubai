@@ -28,7 +28,7 @@ Infinity pools are not merely swimming areas; they are engineering marvels that 
 
 ## Key Design Trends in 2024/2025
 
-Modern infinity pool designs combine advanced technology with sustainable practices, elevating both aesthetics and functionality.
+Modern [infinity pool](/infinity-pools-luxury-resorts) designs combine advanced technology with sustainable practices, elevating both aesthetics and functionality.
 
 ### Hydraulic Systems
 Sophisticated hydraulic systems allow precise water flow over the edges into hidden basins, enhancing the infinity illusion. Newer systems emphasize easier maintenance and smoother operations, perfect for both residential and commercial use.
