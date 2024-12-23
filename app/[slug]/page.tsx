@@ -16,7 +16,6 @@ export async function generateMetadata({
   const { slug } = await params;
   const lePost = await getPostMeta(slug);
   const [firstPost] = lePost;
-  //console.log("what does slug look like for", lePost);
   return firstPost;
 }
 export const generateStaticParams = async () => {

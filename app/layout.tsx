@@ -20,7 +20,7 @@ const notio = localFont({
 });
 
 export const metadata = {
-  title: "Dubai Pool Company Website",
+  title: "Dubai Pool Company Website - Dubai Pools - UAE Pool Builders",
   description:
     "We are your friendly Dubai Pool Company. Offering services from design and construction to maintenance and safety.",
   metadataBase: new URL("https://poolsdubai.com"),
