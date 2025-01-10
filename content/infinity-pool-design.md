@@ -79,4 +79,3 @@ Explore detailed insights into infinity pool designs through these videos:
 ## Explore More
 
 For additional ideas and design inspiration, visit our [Pools Dubai](/) page. Learn how to bring your vision of the perfect infinity pool to life!
-

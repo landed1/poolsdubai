@@ -1,6 +1,12 @@
 import Image from "next/image";
 import NextBreadcrumb from "@/app/components/NextBreadcrumb";
 
+export const metadata = {
+  title: "Pool Maintenenace Dubai UAE - Pool Services Dubai",
+  description:
+    "We specialise in pool maintenance services in Dubai, UAE. Our expert technicians provide hassle-free solutions to keep your pool clean and safe.",
+};
+
 export default async function Maint() {
   return (
     <div className='my-20'>
@@ -14,7 +20,7 @@ export default async function Maint() {
       />
       <article className='flex-grow page-gutter'>
         <h1 className='text-4xl font-bold text-center text-[#0fa0ba] mb-8'>
-          Pool Maintenenace
+          Pool Maintenenace Dubai
         </h1>
         <section className='p-8 sm:p-12 lg:p-16 text-gray-800'>
           <div className='max-w-6xl mx-auto'>
