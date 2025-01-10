@@ -1,5 +1,11 @@
 import NextBreadcrumb from "@/app/components/NextBreadcrumb";
 
+export const metadata = {
+  title: "Pool Design & Construction Dubai UAE - Pool Services Dubai",
+  description:
+    "We specialise in swimming pool design and construction in Dubai UAE. Allow us to wow you with our cutting edge techniques lighting and expert finish.",
+};
+
 export default function PDC() {
   return (
     <div className='my-20'>
@@ -13,7 +19,7 @@ export default function PDC() {
       />
       <article className='flex-grow page-gutter'>
         <h1 className='text-4xl font-bold text-center text-[#0fa0ba] mb-8'>
-          Pool Design & Construction
+          Swimming Pool Design Dubai | Pool Construction Dubai
         </h1>
         <section className='p-6 bg-[#e964d7] text-white rounded-tl-md rounded-br-md shadow-lg'>
           <h2 className='text-2xl font-bold mb-4'>Pool Design</h2>
