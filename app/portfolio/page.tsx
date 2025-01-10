@@ -1,6 +1,12 @@
 import Image from "next/image";
 import NextBreadcrumb from "../components/NextBreadcrumb";
 
+export const metadata = {
+  title: "Swimming Pool Portfolio Dubai UAE",
+  description:
+    "Welcome to Pools Dubai Portfolio. Also visit our instagram for up to date projects and maintenance work.",
+};
+
 export default function Portfolio() {
   type Project = {
     title: string;
