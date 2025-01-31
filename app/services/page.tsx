@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-//import { usePathname } from "next/navigation";
 import NextBreadcrumb from "../components/NextBreadcrumb";
 import ServiceList from "../components/ServiceLinks";
 
@@ -11,10 +10,6 @@ export const metadata = {
 };
 
 export default function Users() {
-  //const pathname = usePathname();
-  //const isActive = pathname.startsWith("/users");
-  //console.log(isActive);
-
   return (
     <div className='my-20'>
       <NextBreadcrumb
