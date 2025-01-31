@@ -1,14 +1,19 @@
-"use client";
 import React from "react";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+//import { usePathname } from "next/navigation";
 import NextBreadcrumb from "../components/NextBreadcrumb";
 import ServiceList from "../components/ServiceLinks";
 
+export const metadata = {
+  title: "Dubai Pool Services - UAE Pool Services",
+  description:
+    "With decades of experience we can help. Here are our core swimming pool services.",
+};
+
 export default function Users() {
-  const pathname = usePathname();
-  const isActive = pathname.startsWith("/users");
-  console.log(isActive);
+  //const pathname = usePathname();
+  //const isActive = pathname.startsWith("/users");
+  //console.log(isActive);
 
   return (
     <div className='my-20'>

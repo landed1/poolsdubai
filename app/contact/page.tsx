@@ -1,4 +1,5 @@
 import NextBreadcrumb from "../components/NextBreadcrumb";
+import { Phone } from "lucide-react";
 
 export default function Contact() {
   return (
@@ -29,6 +30,14 @@ export default function Contact() {
             <h2 className='text-3xl font-bold text-[#0fa0ba] mb-6'>
               Contact Us
             </h2>
+            <p>
+              Dubai Pools, Marina Gate M Floor, Dubai Marina, Dubai, United Arab
+              Emirates
+            </p>
+            <p>
+              <Phone className='w-4 h-4 mr-2' />
+              +971 50 123 4567
+            </p>
             <form>
               <div className='mb-4'>
                 <label

@@ -29,6 +29,10 @@ export default function Footer() {
           </div>
           <div>
             <h3 className='text-xl font-bold mb-4'>Contact</h3>
+            <p>
+              Dubai Pools, Marina Gate M Floor, Dubai Marina, Dubai, United Arab
+              Emirates
+            </p>
             <ul className='space-y-2 text-[#AAABB8]'>
               <li className='flex items-center'>
                 <Phone className='w-4 h-4 mr-2' />

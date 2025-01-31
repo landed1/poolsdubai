@@ -1,11 +1,11 @@
 ---
-title: Rooftop Swimming Pools in Dubai
+title: Rooftop Swimming Pools in Dubai - Best Rooftop Pool Dubai
 description: Explore the best rooftop swimming pools in Dubai, where luxury meets relaxation. Discover stunning views, exclusive access, and unforgettable experiences.
-author: Your Name
+author: Cal Landed
 date: 04-12-2024
 ---
 
-# Rooftop Swimming Pools in Dubai
+# Rooftop Swimming Pools in Dubai - Best Rooftop Pool Dubai
 
 Dubai stands out with its skyline and luxury life. Rooftop pools are hot spots here. You find cool views and great times at these places. Let's dive in and check out some of the best rooftop pools you can find in Dubai.
 
