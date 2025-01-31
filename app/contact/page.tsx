@@ -1,6 +1,12 @@
 import NextBreadcrumb from "../components/NextBreadcrumb";
 import { Phone } from "lucide-react";
 
+export const metadata = {
+  title: "Contact Us Dubai Pools - UAE Pool Services",
+  description:
+    "Via email phone or social. We would love to hear from you, please get in touch!",
+};
+
 export default function Contact() {
   return (
     <div className='my-20'>

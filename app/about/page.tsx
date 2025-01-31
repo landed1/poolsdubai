@@ -1,9 +1,9 @@
 import NextBreadcrumb from "../components/NextBreadcrumb";
 
 export const metadata = {
-  title: "About PoolsDubai",
+  title: "About Dubai Pools - Our History Pools Dubai to Dubai Pools",
   description:
-    "We are a Dubai Swimming Pool Contractor, learn more about us on this page",
+    "We are a Dubai Swimming Pool Contractor, Since our humble beginnings we’ve grown into a trusted name in luxury pool building across the UAE",
 };
 
 export default function About() {

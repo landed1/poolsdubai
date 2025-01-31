@@ -31,7 +31,8 @@ const HomePage = () => {
           <div className='grid grid-cols-1 items-center justify-items-center text-center'>
             <div>
               <h1 className='mix-blend-color-dodge outline-5 text-4xl md:text-6xl font-bold text-[#787878] mb-6'>
-                Premium Pool Services in Dubai
+                Dubai Pools Premium Pool Construction and Maintenance Services
+                in Dubai
               </h1>
               <p className='text-lg text-[#474787] mb-8 bg-white/80 p-2'>
                 Experience excellence in pool maintenance and care with
