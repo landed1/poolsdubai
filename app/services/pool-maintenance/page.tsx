@@ -1,5 +1,6 @@
 import Image from "next/image";
 import NextBreadcrumb from "@/app/components/NextBreadcrumb";
+import Link from "next/link";
 
 export const metadata = {
   title: "Pool Maintenenace Dubai UAE - Pool Services Dubai",
@@ -118,9 +119,11 @@ export default async function Maint() {
                   today to discuss your maintenance needs or schedule a service
                   plan that works for you.
                 </p>
-                <button className='bg-white text-[#0fa0ba] px-6 py-3 rounded-tl-md rounded-br-md font-semibold shadow-lg'>
-                  Get in Touch
-                </button>
+                <Link href='/contact'>
+                  <button className='bg-white text-[#0fa0ba] px-6 py-3 rounded-tl-md rounded-br-md font-semibold shadow-lg'>
+                    Get in Touch
+                  </button>
+                </Link>
               </div>
             </div>
           </div>

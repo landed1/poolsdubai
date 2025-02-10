@@ -39,8 +39,15 @@ export async function getMeta(slug: string){
 
 
 export async function getPageContent(slug: string) {
-    const which = files.filter(content => content === slug + '.md');
-    const fileContents = fs.readFileSync(`${process.cwd()}/content/${which}`, 'utf8');
+    //const which = files.filter(content => content === slug + '.md');
+    
+    const fileName = slug + '.md'; // or '.mdx' if needed
+    const filePath = path.join(process.cwd(), "content", fileName);
+      // Check if the file exists safely
+    if (!fs.existsSync(filePath)) {
+      return null;
+    }
+    const fileContents = fs.readFileSync(filePath, 'utf8');
     const matterResult = matter(fileContents);
     
     //console.log("matterResult",matterResult.data)

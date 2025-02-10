@@ -18,6 +18,7 @@ export async function generateMetadata({
   const [firstPost] = lePost;
   return firstPost;
 }
+
 export const generateStaticParams = async () => {
   //console.log("static params");
   //we need to return all the pages from the .md files in a specific folder.
@@ -29,13 +30,16 @@ export const generateStaticParams = async () => {
 };
 
 export default async function Page({ params }: { params: Params }) {
+  console.log("params.slug", params.slug);
+
   const pageC = await getPageContent(params.slug);
-  const meta = await getMeta(params.slug);
-  //console.log("dDate\n\n", dDate);
-  if (!getPageContent(params.slug)) {
+  if (!pageC) {
+    console.log("not found ", params.slug);
     notFound();
     return;
   }
+  const meta = await getMeta(params.slug);
+  //console.log("dDate\n\n", dDate);
   //console.log("page Content", pageC);
   const newPage = pageC.contentHtml;
   return (
